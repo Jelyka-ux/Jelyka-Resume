@@ -333,3 +333,23 @@ footer {
 .nav-link.active {
   font-weight: 800; /* makes text bold */
 }
+
+/* ALL header links */
+.navbar .nav-link {
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 500;
+  color: #CD5E77 !important;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for ALL */
+.navbar .nav-link:hover {
+  background-color: #ffe3ea;
+}
+
+/* Active page (highlighted pill) */
+.navbar .nav-link.active {
+  background-color: #ffd6df;
+  font-weight: 800;
+}
