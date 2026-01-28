@@ -348,8 +348,33 @@ footer {
   background-color: #ffe3ea;
 }
 
-/* Active page (highlighted pill) */
 .navbar .nav-link.active {
-  background-color: #ffd6df;
   font-weight: 800;
+  background-color: transparent !important;
+}
+/* ===== HEADER NAV FINAL BEHAVIOR ===== */
+
+/* Default state */
+.navbar .nav-link,
+.headerachor {
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 400;
+  color: #CD5E77 !important;
+  background-color: transparent;
+  transition: all 0.25s ease;
+}
+
+/* Hover ONLY = pink background */
+.navbar .nav-link:hover,
+.headerachor:hover {
+  background-color: #FFD1DF;
+}
+
+/* Active / clicked page = BOLD ONLY */
+.navbar .nav-link.active {
+  font-weight: 800;
+  background-color: transparent !important;
+}
+
 }
