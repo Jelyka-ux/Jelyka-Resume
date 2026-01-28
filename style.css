@@ -330,3 +330,6 @@ footer {
   text-align: center;
 }
 
+.nav-link.active {
+  font-weight: 800; /* makes text bold */
+}
