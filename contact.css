@@ -1,8 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
-  font-weight: 700;
   margin: 0;
-  background-color: #FCF5E7;
+  background-color: #FBF1E5;
   color: #CD5E77;
 }
 .body_section {
@@ -15,7 +14,7 @@ a {
 
 @font-face {
   font-family: "Lovely Home";
-  src: local("Lovely Home"), url("Image/LovelyHome-9aBZ.ttf") format("truetype");
+  src: local("Lovely Home"), url("Image/brush\ script\ mt\ kursiv.ttf") format("truetype");
 }
 
 .brand-name,
@@ -38,15 +37,16 @@ a {
 }
 
 .headerachor {
-  color: black;
   margin: 0 7px 0 7px;
   font-size: 25px;
+  color: #CD5E77;
+  font-weight: bold;
 }
 
 .headerachor:hover {
-  background-color: #f1f1f1;
+  background-color: #FFD1DF;
+  border-radius: 20px;
 }
-
 #contact {
   padding: 20px 20px 10px;
 }
