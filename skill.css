@@ -182,9 +182,6 @@ footer {
   transition: width 1s ease-in-out;
 }
 
-/* ================================
-   RESPONSIVE FIXES
-   ================================ */
 @media (max-width: 992px) {
   .flip-card {
     width: 90%;
@@ -201,7 +198,7 @@ footer {
 
 @media (max-width: 576px) {
   .flip-card-inner {
-    transform: none !important;
+    transform: none;
   }
   .flip-card:hover .flip-card-inner {
     transform: none;
