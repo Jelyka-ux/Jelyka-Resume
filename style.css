@@ -443,3 +443,32 @@ img {
   }
 }
 
+.navbar .nav-link.active {
+  font-weight: 800;
+  background-color: transparent;
+}
+
+/* Default state */
+.navbar .nav-link,
+.headerachor {
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 400;
+  color: #CD5E77;
+  background-color: transparent;
+  transition: all 0.25s ease;
+}
+
+/* Hover ONLY = pink background */
+.navbar .nav-link:hover,
+.headerachor:hover {
+  background-color: #FFD1DF;
+}
+
+/* Active / clicked page = BOLD ONLY */
+.navbar .nav-link.active {
+  font-weight: 800;
+  background-color: transparent;
+}
+
+}
